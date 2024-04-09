@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="25dd-7aa0-6bf4-f2d5" name="Imperium - Imperial Knights" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="b9ee-35d4-2177-b643" name="Detachment IK" hidden="false" collective="false" import="true" targetId="5a84-ea91-b707-1656" type="selectionEntry"/>
+    <entryLink id="6997-af61-9230-8827" name="Show/Hide Options" hidden="false" collective="false" import="true" targetId="e8ef-836a-a9d1-901d" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="e203-a8c0-7f2a-a08f" name="Show Agents of the Imperium" hidden="false" collective="false" import="true" targetId="e08b-2448-5606-fefb" type="selectionEntry"/>
+        <entryLink id="80fd-aecc-dbf3-d20f" name="Show Titans" hidden="false" collective="false" import="true" targetId="f26b-79db-80e0-3a3b" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="9b69-6acf-ce6e-7d56" name="Imperium - Imperial Knights - Library" targetId="1b6d-dc06-5db9-c7d1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="a9de-79c6-ff31-ace3" name="Imperium - Imperial Agents" targetId="b00-cd86-4b4c-97ba" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="993e-4de7-67f6-59d2" name="Library - Titans" targetId="7481-280e-b55e-7867" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

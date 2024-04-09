@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bdc0-c0d-72d7-87e2" name="Imperium - Adeptus Titanicus" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="e20a-8101-443d-6ae8" name="Reaver Titan" hidden="false" collective="false" import="true" targetId="b7e8-f3ae-be53-9ba5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8665-68ae-1015-4c5" name="Faction: Adeptus Titanicus" hidden="false" targetId="169a-d3f4-23b5-ba7" primary="false"/>
+        <categoryLink id="a083-c452-bab5-6297" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4c5b-654a-c3b2-4711" name="Warlord" hidden="false" collective="false" import="true" targetId="a618-aeb9-f07d-5ed5" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7f3f-35da-b7ac-a188" name="Warbringer Nemesis Titan" hidden="false" collective="false" import="true" targetId="8e6f-4e09-12d5-fafd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="81e1-b173-8aff-5d48" name="Faction: Adeptus Titanicus" hidden="false" targetId="169a-d3f4-23b5-ba7" primary="false"/>
+        <categoryLink id="67a3-1bf8-461b-98a7" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4b37-1b97-21dd-71c4" name="Warlord" hidden="false" collective="false" import="true" targetId="a618-aeb9-f07d-5ed5" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7465-ac9-b438-7b03" name="Warhound Titan" hidden="false" collective="false" import="true" targetId="8eb5-a990-6eb0-9b41" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ad33-3874-9df2-e5" name="Faction: Adeptus Titanicus" hidden="false" targetId="169a-d3f4-23b5-ba7" primary="false"/>
+        <categoryLink id="ac4a-41af-ae1b-f166" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5ca4-1083-5e07-5ba" name="Warlord" hidden="false" collective="false" import="true" targetId="a618-aeb9-f07d-5ed5" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="37ec-de9e-1d3b-a4ae" name="Warlord Titan" hidden="false" collective="false" import="true" targetId="eafa-cd47-1c2f-61ee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8299-e7d7-115e-bf8c" name="Faction: Adeptus Titanicus" hidden="false" targetId="169a-d3f4-23b5-ba7" primary="false"/>
+        <categoryLink id="2eb-451d-da03-66a8" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8630-315a-fbcb-c39c" name="Warlord" hidden="false" collective="false" import="true" targetId="a618-aeb9-f07d-5ed5" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4feb-117a-4193-bc4a" name="Show/Hide Options" hidden="false" collective="false" import="true" targetId="e8ef-836a-a9d1-901d" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="f859-abad-f35a-8893" name="Show Agents of the Imperium" hidden="false" collective="false" import="true" targetId="e08b-2448-5606-fefb" type="selectionEntry"/>
+        <entryLink id="7cea-eee3-1132-d7c3" name="Show Imperial Knights" hidden="false" collective="false" import="true" targetId="e82c-6f8c-2b97-a287" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="a618-aeb9-f07d-5ed5" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57b5-35be-6ba8-3f2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2e56-a5c9-b6c3-3e95" name="Warlord" hidden="false" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="99b7-e32-1d75-c795" name="Library - Titans" targetId="7481-280e-b55e-7867" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="3076-508b-776-7a46" name="Imperium - Imperial Knights - Library" targetId="1b6d-dc06-5db9-c7d1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="9c38-61cc-ebb6-ed61" name="Imperium - Agents of the Imperium" targetId="b00-cd86-4b4c-97ba" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

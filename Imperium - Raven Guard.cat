@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="6e59-e1ee-47ad-6ce5" name="Imperium - Adeptus Astartes - Raven Guard" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="a4c3-fdb-4d12-e303" name="Kayvaan Shrike" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="8ec7-1c8b-5540-5f14" name="Kayvaan Shrike" hidden="false" collective="false" import="true" targetId="339f-9776-243d-69a6" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="339f-9776-243d-69a6" name="Kayvaan Shrike" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efd3-3d1a-f561-bdbf" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8753-86b1-ba10-487a" name="Kayvaan Shrike" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f688-b597-c9de-b5ac" name="Trifold Path of Shadow" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, models  in this unit cannot be targeted by ranged attacks unless the attacking model is within 12&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b769-af88-7e44-e386" name="Echo of the Ravenspire" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your opponent’s turn, if this model’s unit is not within Engagement Range of any enemy models, you can remove it from the battlefield and place it into Strategic Reserves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="babb-fe84-e1d4-1012" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+
+■ Assault Intercessors with Jump Packs
+■ Vanguard Veteran Squad with Jump Packs</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aa3d-f0-6775-59a9" name="Invulnerable Save" hidden="false" targetId="db19-dee7-9530-ef0e" type="profile"/>
+        <infoLink id="df41-a640-25b9-fa28" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+        <infoLink id="8269-c8d-6c08-b8e4" name="Oath of Moment" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+        <infoLink id="7588-d43a-da8e-84ee" name="Lone Operative" hidden="false" targetId="a8a0-8fe7-898-e0f3" type="rule"/>
+        <infoLink id="7c9-77f1-dd05-3fc1" name="Deep Strike" hidden="false" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+        <infoLink id="f773-9042-cdb0-5c49" name="Stealth" hidden="false" targetId="bec5-4288-34a6-ccfa" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5f4a-196b-1bdb-f032" name="Epic Hero" hidden="false" targetId="4f3a-f0f7-6647-348d" primary="true"/>
+        <categoryLink id="dc2-6e09-ecae-705c" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink id="e710-c28-8925-9d1b" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink id="82d1-b78-bef6-5dcd" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink id="829a-2262-2b34-ee42" name="Fly" hidden="false" targetId="c619-2086-bbcf-69c9" primary="false"/>
+        <categoryLink id="835c-c945-97-23ac" name="Jump Pack" hidden="false" targetId="dda2-bb0a-215e-ad9c" primary="false"/>
+        <categoryLink id="4eb3-bb5-f7a8-3be0" name="Faction: Adeptus Astartes" hidden="false" targetId="6e7-40c-58d9-e402" primary="false"/>
+        <categoryLink id="204b-8967-eb6b-e23f" name="Faction: Raven Guard" hidden="false" targetId="84b7-7194-3b84-1b0c" primary="false"/>
+        <categoryLink id="2933-41fe-e2fa-f739" name="Chapter Master" hidden="false" targetId="5bd8-882d-302b-48f3" primary="false"/>
+        <categoryLink id="70ef-4e91-488-c67f" name="Kayvaan Shrike" hidden="false" targetId="a4c3-fdb-4d12-e303" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b2d0-b85d-3880-3efe" name="Blackout" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1f6-cabd-f5a4-c1f9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5406-4a6d-7f19-9e96" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6521-4333-c221-6c5b" name="Blackout" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Precision</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7e20-fedc-d0e7-93d7" name="Pistol" hidden="false" targetId="8bf7-8812-923d-29e4" type="rule"/>
+            <infoLink id="9416-5183-f8bb-d1ea" name="Precision" hidden="false" targetId="9143-31ae-e0a6-6007" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="e4fe-9ddc-4e91-c960" name="The Raven&apos;s Talons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85e2-58ed-992b-9901" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded4-cfd8-9dfa-462" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2ebd-2e8d-801c-45a6" name="The Raven&apos;s Talons" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">7</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Precision, Twin-linked</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7775-f720-bd7d-71ea" name="Twin-linked" hidden="false" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+            <infoLink id="3fa7-4d8e-f4e5-be21" name="Precision" hidden="false" targetId="9143-31ae-e0a6-6007" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="1ca1-abf3-563f-725f" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="100.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="4142-7347-ddc2-705a" name="Imperium - Space Marines" targetId="e0af-67df-9d63-8fb7" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="9a99-a0ad-519f-4619" name="Imperium - Imperial Knights" targetId="1b6d-dc06-5db9-c7d1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="d580-ac13-6238-5511" name="Imperium - Imperial Agents" targetId="b00-cd86-4b4c-97ba" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

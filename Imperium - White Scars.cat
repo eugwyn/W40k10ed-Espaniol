@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="67c1-fc13-f9a1-cbbf" name="Imperium - Adeptus Astartes - White Scars" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="ecaf-d9ca-6ab0-8dcb" name="Kor&apos;sarro Khan" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="ed84-3c2a-5346-ca97" name="Kor&apos;sarro Khan" hidden="false" collective="false" import="true" targetId="63f3-6aeb-c9ed-abfc" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="63f3-6aeb-c9ed-abfc" name="Kor&apos;sarro Khan" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="354c-9a92-ab1f-72a4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="910d-d973-82c-d2e3" name="Kor&apos;sarro Khan" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">5</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="143-1a21-8afb-16c4" name="For the Khan!" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and melee weapons equipped by models in that unit have the [LANCE] ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bbb5-617e-a254-8463" name="Trophy Taker" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model destroys an enemy Character model, you gain 1CP</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="90b4-a746-de9b-2df2" name="Leader" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
+
+■ Assault Intercessor Squad
+■ Bladeguard Veteran Squad
+■ Intercessor Squad
+■ Sternguard Veteran Squad
+■ Tactical Squad</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="822f-beab-9b42-9948" name="Invulnerable Save" hidden="false" targetId="db19-dee7-9530-ef0e" type="profile"/>
+        <infoLink id="68a0-61b2-c158-4c4a" name="Oath of Moment" hidden="false" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+        <infoLink id="f512-1f71-1a0-24d0" name="Leader" hidden="false" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="91c8-2439-6241-59ac" name="Epic Hero" hidden="false" targetId="4f3a-f0f7-6647-348d" primary="true"/>
+        <categoryLink id="8698-34e9-3674-bc4d" name="Character" hidden="false" targetId="9cfd-1c32-585f-7d5c" primary="false"/>
+        <categoryLink id="11be-d531-53fd-19f7" name="Infantry" hidden="false" targetId="cf47-a0d7-7207-29dc" primary="false"/>
+        <categoryLink id="d4d7-37e4-7b12-e97b" name="Captain" hidden="false" targetId="2d7f-1892-2fd0-e29c" primary="false"/>
+        <categoryLink id="a915-ad7e-1cf0-f376" name="Imperium" hidden="false" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink id="a433-895b-d6dc-81ff" name="Faction: Adeptus Astartes" hidden="false" targetId="6e7-40c-58d9-e402" primary="false"/>
+        <categoryLink id="e6ae-9197-b53f-7d67" name="Faction: White Scars" hidden="false" targetId="5c0e-2250-dd3a-1df9" primary="false"/>
+        <categoryLink id="55f6-c289-506d-455f" name="Kor&apos;sarro Khan" hidden="false" targetId="ecaf-d9ca-6ab0-8dcb" primary="false"/>
+        <categoryLink id="2ef1-b613-5bc9-c6ab" name="Tacticus" hidden="false" targetId="5179-8ede-45e3-49a2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1d9c-e037-5d69-4b67" name="Moonfang" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af2-4add-6759-488b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e98-f3f5-23e-f9c6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="51-8dfa-ba16-7fbe" name="Moonfang" hidden="false" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Precision</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7061-e9c1-b5ea-e47c" name="Devastating Wounds" hidden="false" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+            <infoLink id="8c47-7b5-9e41-a078" name="Precision" hidden="false" targetId="9143-31ae-e0a6-6007" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3ed4-a23e-f5a2-d32c" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="b273-b85e-4018-a0cd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a09-8ec0-58fe-cb04" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="416c-fb13-f588-5118" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3e75-6a41-b3f8-b8bd" name="Warlord" hidden="false" collective="false" import="true" targetId="caa-f869-3cbd-b48e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad60-fb6-5cf4-f118" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="70.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="f5b3-d2eb-a7f0-5957" name="Imperium - Space Marines" targetId="e0af-67df-9d63-8fb7" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="fe85-7340-cb74-f699" name="Imperium - Imperial Knights" targetId="1b6d-dc06-5db9-c7d1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="b693-b382-3b94-e000" name="Imperium - Imperial Agents" targetId="b00-cd86-4b4c-97ba" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="880c-c7e-4a43-a0c1" name="Chaos - Titanicus Traitoris" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="f1e5-9e28-9096-27be" name="Reaver Titan" hidden="false" collective="false" import="true" targetId="b7e8-f3ae-be53-9ba5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4ea2-af16-cf4d-eeb1" name="Faction: Titanicus Traitoris" hidden="false" targetId="fe43-3689-1f33-b408" primary="false"/>
+        <categoryLink id="8944-26e6-a30c-112f" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e0e2-880c-c074-f1b6" name="Warlord" hidden="false" collective="false" import="true" targetId="581a-c238-bcf5-7e22" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1258-53bd-b170-2509" name="Warbringer Nemesis Titan" hidden="false" collective="false" import="true" targetId="8e6f-4e09-12d5-fafd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9b17-495d-6d4b-1acf" name="Faction: Titanicus Traitoris" hidden="false" targetId="fe43-3689-1f33-b408" primary="false"/>
+        <categoryLink id="5933-8de1-6ba5-d311" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5665-abac-8d-bfd5" name="Warlord" hidden="false" collective="false" import="true" targetId="581a-c238-bcf5-7e22" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6709-2ef7-6205-9dcb" name="Warhound Titan" hidden="false" collective="false" import="true" targetId="8eb5-a990-6eb0-9b41" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7849-5dfb-fef0-dc0b" name="Faction: Titanicus Traitoris" hidden="false" targetId="fe43-3689-1f33-b408" primary="false"/>
+        <categoryLink id="7a66-86a3-9e92-9d0d" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6365-9944-bc88-835a" name="Warlord" hidden="false" collective="false" import="true" targetId="581a-c238-bcf5-7e22" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="26dd-509a-d3f4-758c" name="Warlord Titan" hidden="false" collective="false" import="true" targetId="eafa-cd47-1c2f-61ee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f77f-8e46-1391-6860" name="Faction: Titanicus Traitoris" hidden="false" targetId="fe43-3689-1f33-b408" primary="false"/>
+        <categoryLink id="4937-71c5-7c9f-f34a" name="Chaos" hidden="false" targetId="4c00-2578-faf5-6918" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="95d-7797-f8b9-9e24" name="Warlord" hidden="false" collective="false" import="true" targetId="581a-c238-bcf5-7e22" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7090-ac3f-9d29-34ca" name="Show/Hide Options" hidden="false" collective="false" import="true" targetId="e8ef-836a-a9d1-901d" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="c38f-1814-488-8c7b" name="Show Khorne Daemons" hidden="false" collective="false" import="true" targetId="f5f9-1339-84bb-ae85" type="selectionEntry"/>
+        <entryLink id="7030-c4d-414e-dacd" name="Show Nurgle Daemons" hidden="false" collective="false" import="true" targetId="f486-5e38-994c-15ec" type="selectionEntry"/>
+        <entryLink id="fc50-8b26-9a56-90bb" name="Show Slaanesh Daemons" hidden="false" collective="false" import="true" targetId="d3ff-16f0-dad2-c03c" type="selectionEntry"/>
+        <entryLink id="2ea1-14d3-e451-ce9e" name="Show Tzeentch Daemons" hidden="false" collective="false" import="true" targetId="1248-8642-b42f-1dca" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="581a-c238-bcf5-7e22" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ba7-870d-4e7b-bf4f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="31d4-baee-3178-aa86" name="Warlord" hidden="false" targetId="5c0e-4c31-d51b-e470" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="e771-d190-6840-8e9" name="Library - Titans" targetId="7481-280e-b55e-7867" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="f54f-b211-f992-f256" name="Chaos - Daemons Library" targetId="b45c-af22-788a-dfd6" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
