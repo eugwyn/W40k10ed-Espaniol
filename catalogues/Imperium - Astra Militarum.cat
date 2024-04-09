@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b0ae-12a5-c84-ea45" name="Imperium - Astra Militarum" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="f38c-6b5-d8d3-32db" name="‘Iron Hand’ Straken" hidden="false" collective="false" import="true" targetId="913f-3cb6-fb80-7f6a" type="selectionEntry"/>
+    <entryLink id="2c5d-9f8f-b19d-53be" name="Aegis Defence Line" hidden="false" collective="false" import="true" targetId="cb99-456-f100-40ed" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="29aa-34ba-8b9f-b6a6" name="Armoured Sentinels" hidden="false" collective="false" import="true" targetId="7e34-20cf-1149-74a1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="1c41-ff61-cecb-fce2" name="Attilan Rough Riders" hidden="false" collective="false" import="true" targetId="2299-bed9-3e-2b60" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="abb6-cf38-a3f1-7e95" name="Baneblade" hidden="false" collective="false" import="true" targetId="a6a1-1612-f982-31" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4c9f-3441-edd3-c4e5" name="Banehammer" hidden="false" collective="false" import="true" targetId="d10-48db-3241-ec72" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4e46-82c5-d3b3-c27d" name="Banesword" hidden="false" collective="false" import="true" targetId="30f5-d90a-9811-d763" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="aa89-8d18-ab88-85ef" name="Basilisk" hidden="false" collective="false" import="true" targetId="bf53-4ab3-ff75-9aa0" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="3ec3-1ac7-2064-9783" name="Bullgryn Squad" hidden="false" collective="false" import="true" targetId="37ad-63e5-1786-87cf" type="selectionEntry"/>
+    <entryLink id="c43b-26b5-4c4-521c" name="Cadian Castellan" hidden="false" collective="false" import="true" targetId="2b49-4d03-aaf5-3532" type="selectionEntry"/>
+    <entryLink id="775d-c8f4-8d6a-e768" name="Cadian Command Squad" hidden="false" collective="false" import="true" targetId="4d28-f2a7-67c1-eb2e" type="selectionEntry"/>
+    <entryLink id="7b5-9080-f871-aff9" name="Cadian Shock Troops" hidden="false" collective="false" import="true" targetId="a2aa-7688-dcb1-4132" type="selectionEntry"/>
+    <entryLink id="9357-7f3f-56be-3129" name="Chimera" hidden="false" collective="false" import="true" targetId="cf23-58db-8ba4-9ec8" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="f86e-edef-7ce6-6ded" name="Commissar" hidden="false" collective="false" import="true" targetId="a979-5b21-dc69-b949" type="selectionEntry"/>
+    <entryLink id="4fb3-5033-9135-e605" name="Death Korps of Krieg" hidden="false" collective="false" import="true" targetId="ade0-fa44-d4cf-4fc8" type="selectionEntry"/>
+    <entryLink id="4425-da07-5180-9b30" name="Deathstrike" hidden="false" collective="false" import="true" targetId="e19f-b9b8-75d5-8520" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="a4df-efb2-5bfa-cff6" name="Doomhammer" hidden="false" collective="false" import="true" targetId="8342-57dd-69d3-e698" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="f790-9b08-1134-58b3" name="Field Ordnance Battery" hidden="false" collective="false" import="true" targetId="64a9-4cb2-400e-efd1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="ffd3-a6da-a79e-bb34" name="Gaunt’s Ghosts" hidden="false" collective="false" import="true" targetId="653d-80-d715-7d55" type="selectionEntry"/>
+    <entryLink id="30f1-5a2a-9f88-d26c" name="Heavy Weapons Squad" hidden="false" collective="false" import="true" targetId="91a9-15e-b5f0-700f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4b14-165e-b687-1078" name="Hellhammer" hidden="false" collective="false" import="true" targetId="8277-6399-5d74-760d" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2684-7f5b-aa65-923e" name="Hellhound" hidden="false" collective="false" import="true" targetId="c28b-c3af-38b2-8865" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="287e-ac22-3dc3-fac0" name="Hydra" hidden="false" collective="false" import="true" targetId="4967-19b6-1e2a-a300" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="9bfa-5927-3e10-893c" name="Infantry Squad" hidden="false" collective="false" import="true" targetId="6c81-9fe6-c714-88e8" type="selectionEntry"/>
+    <entryLink id="3628-3edf-659e-6405" name="Kasrkin" hidden="false" collective="false" import="true" targetId="abe4-ca71-d5a7-3883" type="selectionEntry"/>
+    <entryLink id="4071-d276-4b66-b186" name="Leman Russ Battle Tank" hidden="false" collective="false" import="true" targetId="c581-3ab5-49a0-9ec0" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="369c-b9c1-931-60ee" name="Leman Russ Eradicator" hidden="false" collective="false" import="true" targetId="286e-8e39-b807-5981" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="805a-7234-cf45-24fb" name="Leman Russ Demolisher" hidden="false" collective="false" import="true" targetId="cbcc-e0ad-4b9-2c76" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="3fa3-3764-1622-6b9d" name="Leman Russ Exterminator" hidden="false" collective="false" import="true" targetId="d8c8-ea02-21bf-de0b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="d9ac-54cb-cdb9-6d4c" name="Leman Russ Vanquisher" hidden="false" collective="false" import="true" targetId="ddf2-228b-edd9-7e83" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="f9d6-8548-3291-8c60" name="Leman Russ Punisher" hidden="false" collective="false" import="true" targetId="e529-5853-d7e2-17ad" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="d2de-6903-46a-f02c" name="Lord Solar Leontus" hidden="false" collective="false" import="true" targetId="a9d-55c1-3d24-fa25" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="df92-e0be-df8f-73fc" name="Manticore" hidden="false" collective="false" import="true" targetId="41be-48c9-5476-f47a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="30ef-6edf-f9be-6b3b" name="Militarum Tempestus Command Squad" hidden="false" collective="false" import="true" targetId="497-36ad-8ecb-f7c7" type="selectionEntry"/>
+    <entryLink id="3ea1-4365-6d97-1b59" name="Nork Deddog" hidden="false" collective="false" import="true" targetId="bcda-f4bb-e726-9bfe" type="selectionEntry"/>
+    <entryLink id="2265-a0d2-432c-ca41" name="Ogryn Bodyguard" hidden="false" collective="false" import="true" targetId="a7c2-1534-93b0-c0eb" type="selectionEntry"/>
+    <entryLink id="ae81-eb8-844-95e7" name="Ogryn Squad" hidden="false" collective="false" import="true" targetId="c9eb-2007-af01-a853" type="selectionEntry"/>
+    <entryLink id="e858-d78d-2e0f-6b0d" name="Platoon Command Squad" hidden="false" collective="false" import="true" targetId="4683-67ac-7744-d5e3" type="selectionEntry"/>
+    <entryLink id="f1f4-72d3-d4f4-97de" name="Primaris Psyker" hidden="false" collective="false" import="true" targetId="4ad0-e988-a513-9530" type="selectionEntry"/>
+    <entryLink id="55e9-8263-501f-4eda" name="Ratling Snipers" hidden="false" collective="false" import="true" targetId="4fb-b56-fcdb-d051" type="selectionEntry"/>
+    <entryLink id="9f03-ced1-9af-3f2d" name="Regimental Attachés" hidden="false" collective="false" import="true" targetId="5da1-9869-294e-8187" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="77a1-a36b-5192-b450" name="Regimental Enginseer" hidden="false" collective="false" import="true" targetId="f556-a33d-dc90-d6fc" type="selectionEntry"/>
+    <entryLink id="8c6b-fdb9-ee13-96c8" name="Regimental Preacher" hidden="false" collective="false" import="true" targetId="7ea9-13aa-8aaf-645c" type="selectionEntry"/>
+    <entryLink id="c7e0-68a4-64af-88e4" name="Rogal Dorn Battle Tank" hidden="false" collective="false" import="true" targetId="2127-efcc-1f62-7fab" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="1ee4-62ac-f8e3-cf62" name="Scout Sentinels" hidden="false" collective="false" import="true" targetId="4424-a6ec-6d9e-a936" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="a496-7c35-f648-d819" name="Sergeant Harker" hidden="false" collective="false" import="true" targetId="a8d5-81f9-96a0-fd12" type="selectionEntry"/>
+    <entryLink id="b5d3-ef49-da86-62ab" name="Shadowsword" hidden="false" collective="false" import="true" targetId="1b48-2f2-8e9c-1308" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8d22-6401-74fb-c577" name="Sly Marbo" hidden="false" collective="false" import="true" targetId="4d50-e535-616a-259c" type="selectionEntry"/>
+    <entryLink id="8621-8c62-2041-9bb5" name="Stormlord" hidden="false" collective="false" import="true" targetId="892b-678c-72e6-ee58" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="3b7d-b60f-4c12-3ab0" name="Tank Commander" hidden="false" collective="false" import="true" targetId="5430-18e-d7b0-1d54" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="fd9d-7a51-43be-16d1" name="Taurox" hidden="false" collective="false" import="true" targetId="11e5-d4ab-d140-ac38" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="f6f4-dd0a-a388-a9fe" name="Taurox Prime" hidden="false" collective="false" import="true" targetId="4b67-f814-358e-f776" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="fe4d-4c95-5b84-2670" name="Tempestus Scions" hidden="false" collective="false" import="true" targetId="679b-f37f-2388-748" type="selectionEntry"/>
+    <entryLink id="b455-c6f1-b37e-c3b7" name="Ursula Creed" hidden="false" collective="false" import="true" targetId="b6b2-9971-ec0c-349e" type="selectionEntry"/>
+    <entryLink id="792-4a0b-303c-bf6c" name="Valkyrie" hidden="false" collective="false" import="true" targetId="9665-3160-8a04-d2bc" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="f9a6-cebc-48db-8236" name="Wyvern" hidden="false" collective="false" import="true" targetId="d11b-c49d-41bf-1f36" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="cd5f-2fc8-7d6f-9dee" name="Detachment" hidden="false" collective="false" import="true" targetId="406d-8707-c597-abd6" type="selectionEntry"/>
+    <entryLink id="34a6-be21-d115-fe06" name="Catachan Jungle Fighters" hidden="false" collective="false" import="true" targetId="fe5a-764e-37ed-7cef" type="selectionEntry"/>
+    <entryLink id="312a-7de8-16f7-1b1" name="Munitorum Servitors" hidden="false" collective="false" import="true" targetId="5c5f-8f23-7f13-2af6" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="d3fe-e9f2-d76b-a67" name="Stormsword" hidden="false" collective="false" import="true" targetId="67bc-a760-7ed5-9952" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="c377-333b-c6db-30d7" name="Death Korps Marshal" hidden="false" collective="false" import="true" targetId="f01a-11ad-b9e1-9d9c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="d30b-7a78-62e8-3ba5" name="Death Rider Squadron" hidden="false" collective="false" import="true" targetId="f1a-7c78-ffdc-bf5b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="ff83-3a46-581b-5372" name="Death Rider Squadron Commander" hidden="false" collective="false" import="true" targetId="cbb7-7f52-35e1-c6fb" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="a573-d275-227d-d26e" name="Carnodon" hidden="false" collective="false" import="true" targetId="173e-ddd1-354c-583b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="9ad5-50be-135c-abbf" name="Cyclops Demolition Vehicle" hidden="false" collective="false" import="true" targetId="95b4-68d6-26cf-188e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8041-c072-2179-b50" name="Malcador" hidden="false" collective="false" import="true" targetId="f706-c35a-a325-38bf" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="ba5e-da5f-c28a-e649" name="Malcador Annihilator" hidden="false" collective="false" import="true" targetId="bc69-45ff-789c-90bb" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="7ac3-d9ed-f091-4a28" name="Malcador Defender" hidden="false" collective="false" import="true" targetId="a185-ae7a-4503-8ceb" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="9445-8040-98c9-6400" name="Malcador Infernus" hidden="false" collective="false" import="true" targetId="5e59-657b-5c85-1d92" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8f3d-8b4b-eac0-f1e1" name="Stormblade" hidden="false" collective="false" import="true" targetId="a93c-9d4b-8fd9-15b4" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="d15e-ed71-a47f-87c" name="Macharius" hidden="false" collective="false" import="true" targetId="d7a-7abb-831b-1c67" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="366-4207-f5fe-a98d" name="Macharius Vanquisher" hidden="false" collective="false" import="true" targetId="731f-e022-6394-3690" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="5460-7bbe-b13a-a403" name="Macharius Vulcan" hidden="false" collective="false" import="true" targetId="e951-f9f2-3dd4-d5b8" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="eb5c-2b78-d795-d078" name="Praetor" hidden="false" collective="false" import="true" targetId="247-2938-79b6-ff4b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="58b4-e505-ee90-87f0" name="Crassus" hidden="false" collective="false" import="true" targetId="c7cc-ad05-15f6-a4f3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="cfdd-bee8-69e6-33f9" name="Colossus" hidden="false" collective="false" import="true" targetId="1653-dc47-25b-c71f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="b03b-7117-bbc3-dcbc" name="Valdor" hidden="false" collective="false" import="true" targetId="3936-a532-dc5e-8498" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2da7-241c-8df1-8a08" name="Avenger Strike Fighter" hidden="false" collective="false" import="true" targetId="532c-2c97-357a-fa1e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="9866-16e8-9085-4b18" name="Voss-pattern Lightning" hidden="false" collective="false" import="true" targetId="ed3d-fa87-4f0d-d10c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="9fe0-9f40-5e92-9ae4" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" import="true" targetId="ec8d-cff1-6eff-b35c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="7a3e-319d-faa3-e341" name="Vulture Gunship" hidden="false" collective="false" import="true" targetId="739e-cb18-c050-fca1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="505f-957b-6b38-abb3" name="Marauder Bomber" hidden="false" collective="false" import="true" targetId="7f1f-38c8-1bdc-55d7" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="5699-9996-d84e-77ab" name="Marauder Destroyer" hidden="false" collective="false" import="true" targetId="18f9-56ec-7334-69a7" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="73f3-843d-674f-7f77" name="Tarantula Battery" hidden="false" collective="false" import="true" targetId="1502-bae3-93b4-c89a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="e659-f4ce-f63-e8ca" name="Rapier Laser Destroyer Battery" hidden="false" collective="false" import="true" targetId="31ec-a804-92ad-97" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="d8bb-bc8d-b3c8-a33b" name="Hades Breaching Drill" hidden="false" collective="false" import="true" targetId="ed8d-9053-9d33-61da" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="aea6-e9e8-178f-7ec3" name="Trojan Support Vehicle" hidden="false" collective="false" import="true" targetId="fbaf-15f6-37d8-c5b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="77bd-ada2-f0c9-5aaf" name="Leman Russ Executioner" hidden="false" collective="false" import="true" targetId="c8fc-b9fa-d126-a296" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="5fe4-d1c1-1d88-9328" name="Medusa Carriage Battery" hidden="false" collective="false" import="true" targetId="60c8-fd76-c98b-304a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="ce09-1a61-819d-2cf6" name="Earthshaker Carriage Battery" hidden="false" collective="false" import="true" targetId="efc7-ac4c-1fcd-5b39" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8634-48cc-9feb-c7af" name="Valkyrie Sky Talon [Legends]" hidden="false" collective="false" import="true" targetId="f8cc-73b7-6caa-f741" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4da1-42fd-ba30-5808" name="Aquila Lander [Legends]" hidden="false" collective="false" import="true" targetId="b44d-ecac-2542-e584" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="6f5b-b62-37d0-4f6c" name="Show/Hide Options" hidden="false" collective="false" import="true" targetId="e8ef-836a-a9d1-901d" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="f8d5-8d30-ef1d-9fc3" name="Show Imperial Knights" hidden="false" collective="false" import="true" targetId="e82c-6f8c-2b97-a287" type="selectionEntry"/>
+        <entryLink id="7593-597b-26b7-2717" name="Show Agents of the Imperium" hidden="false" collective="false" import="true" targetId="e08b-2448-5606-fefb" type="selectionEntry"/>
+        <entryLink id="1494-4bb1-b7e6-d879" name="Show Titans" hidden="false" collective="false" import="true" targetId="f26b-79db-80e0-3a3b" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="8b44-2197-db9f-2af4" name="Dominus Armoured Siege Bombard [Legends]" hidden="false" collective="false" import="true" targetId="fc41-a899-8d5a-dc01" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="9239-111e-4ef4-b40f" name="Heavy Mortar Team [Legends]" hidden="false" collective="false" import="true" targetId="e184-bfe9-ea12-a5e3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="19cc-ae92-3df3-2530" name="Heavy Quad Launcher Team [Legends]" hidden="false" collective="false" import="true" targetId="5762-f71e-7693-49a6" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="886b-df8b-1e8b-e17b" name="Death Rider Commissar [Legends]" hidden="false" collective="false" import="true" targetId="d58c-e97f-5062-d9e1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8fb2-80a9-b1ae-29db" name="Arkurian Stormhammer [Legends]" hidden="false" collective="false" import="true" targetId="59c4-e4de-fe70-b221" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2f30-49cf-84dc-4b84" name="Gorgon Heavy Transport [Legends]" hidden="false" collective="false" import="true" targetId="5d8e-2b2a-6ed1-8309" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="f798-9d17-25ab-65af" name="Death Korps Grenadier Squad [Legends]" hidden="false" collective="false" import="true" targetId="8a25-2a0c-87d2-3ea6" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="7f70-8a46-23f7-226" name="Atlas Recovery Vehicle [Legends]" hidden="false" collective="false" import="true" targetId="9673-7eaa-8ed9-bc7c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="d3b9-1474-30d5-dfc1" name="Elysian Drop Sentinel [Legends]" hidden="false" collective="false" import="true" targetId="badd-6133-a469-613c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2152-f3be-348-180e" name="Earthshaker Platform [Legends]" hidden="false" collective="false" import="true" targetId="cb82-5250-6959-d2c3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="6ea3-4899-60a0-3f65" name="Mukaali Riders [Legends]" hidden="false" collective="false" import="true" targetId="421a-6683-9e78-fb7" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2974-41f7-e1cf-2483" name="Salamander Scout Vehicle [Legends]" hidden="false" collective="false" import="true" targetId="73b2-edbf-eec3-563d" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="82b2-5ba2-1f8e-2ed3" name="Tauros Assault Vehicle [Legends]" hidden="false" collective="false" import="true" targetId="6800-f1ce-7deb-d9eb" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="6fc2-9ba5-cf7a-6afc" name="Tauros Venator [Legends]" hidden="false" collective="false" import="true" targetId="a95f-9dd6-de66-fa59" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="dc2d-a349-be04-8647" name="Salamander Command Vehicle [Legends]" hidden="false" collective="false" import="true" targetId="9fb1-876b-ac2d-6c9b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4df1-2aa5-8f96-50d3" name="Storm Chimera [Legends]" hidden="false" collective="false" import="true" targetId="b6a7-4d64-1155-70c1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="52e0-b396-70fa-e952" name="Centaur Light Carrier [Legends]" hidden="false" collective="false" import="true" targetId="81d4-2ed9-b0a4-6bdd" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="de34-bdb3-28fa-532a" name="Stygies Destroyer Tank Hunter [Legends]" hidden="false" collective="false" import="true" targetId="28d1-70b2-70be-c998" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="dd89-8c13-78ce-c058" name="Macharius Omega [Legends]" hidden="false" collective="false" import="true" targetId="4b76-f049-77b1-38bf" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="f23c-da85-28c7-1776" name="Rein and Raus [Legends]" hidden="false" collective="false" import="true" targetId="7d5b-1aae-55-2f5b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="d1dd-44e7-b654-7bc3" name="Quartermaster Cadre Squad [Legends]" hidden="false" collective="false" import="true" targetId="1d02-5302-f162-65d6" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="c46d-1057-94aa-9df8" name="Sabre Weapons Battery [Legends]" hidden="false" collective="false" import="true" targetId="3597-3243-6870-70a1" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="7300-2798-b3a1-cc45" name="Elysian Sniper Squad [Legends]" hidden="false" collective="false" import="true" targetId="d4da-78a0-ef0-1e7e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="f78-481-9450-b631" name="Armageddon-pattern Medusa [Legends]" hidden="false" collective="false" import="true" targetId="a96a-83e1-9200-c88b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="e27e-ffc-cb61-740" name="Arvus Lighter [Legends]" hidden="false" collective="false" import="true" targetId="8b13-7c06-de12-4227" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="3eb-afd2-e2a5-fa07" name="Griffon Mortar Carrier [Legends]" hidden="false" collective="false" import="true" targetId="7be8-bfe0-6416-8ed7" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="10d-3ef0-803-a47a" name="Minotaur [Legends]" hidden="false" collective="false" import="true" targetId="92a9-a820-b7f-7dc2" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="348-4a28-2b9-aca" name="Manticore Platform [Legends]" hidden="false" collective="false" import="true" targetId="adbb-4624-738f-61ec" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="7832-9d18-8dd-757b" name="Hydra Platform [Legends]" hidden="false" collective="false" import="true" targetId="f46c-76ef-3d9c-98ea" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="5039-6bdc-7bf3-b658" name="Sentinel Powerlifter [Legends]" hidden="false" collective="false" import="true" targetId="8cc1-8512-710f-f15f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="ef71-b4d8-a9e-6e18" name="Vendetta Gunship [Legends]" hidden="false" collective="false" import="true" targetId="4946-40d2-ee8b-a71c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="1d6e-2579-8e7f-1ed4" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="e373-3c0a-1185-467a" name="Imperium - Astra Militarum - Library" targetId="5a44-f048-114b-e3ff" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="38dd-a3d5-684f-2dea" name="Imperium - Imperial Knights" targetId="1b6d-dc06-5db9-c7d1" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4e1e-d351-d01e-df32" name="Imperium - Imperial Agents" targetId="b00-cd86-4b4c-97ba" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="60ee-b4f-eafc-93d1" name="Library - Titans" targetId="7481-280e-b55e-7867" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

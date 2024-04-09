@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d265-877b-e03d-30ca" name="Chaos - Chaos Daemons" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="3464-ba60-581-5957" name="Show Leaders inside units" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="name" value="Leaders can be added to units">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3464-ba60-581-5957" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7e5-a938-3d59-811f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="40d5-2cd2-a7d-575c" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="5f9d-d017-ce57-a011" name="Detachment Choice" hidden="false" collective="false" import="true" targetId="6470-c44a-45f4-3313" type="selectionEntry"/>
+    <entryLink id="c33e-de90-ab0c-995f" name="Show/Hide Options" hidden="false" collective="false" import="true" targetId="e8ef-836a-a9d1-901d" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="cbba-c94b-79f8-9cef" name="Show Chaos Knights" hidden="false" collective="false" import="true" targetId="aeb4-96de-7401-eaa3" type="selectionEntry"/>
+        <entryLink id="bcd3-dd3f-1e3-9617" name="Show Titans" hidden="false" collective="false" import="true" targetId="f26b-79db-80e0-3a3b" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4a6d-e24e-e36a-1479" name="Show Khorne Daemons" hidden="false" collective="false" import="true" targetId="f5f9-1339-84bb-ae85" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2f8-5b49-2045-d735" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="12d3-29b2-62da-df56" name="Show Nurgle Daemons" hidden="false" collective="false" import="true" targetId="f486-5e38-994c-15ec" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c916-b2a5-221d-8093" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="feae-5239-37a7-4241" name="Show Tzeentch Daemons" hidden="false" collective="false" import="true" targetId="1248-8642-b42f-1dca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="10a2-35ab-591f-7c93" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b1c8-4dd-3518-bf7" name="Show Slaanesh Daemons" hidden="false" collective="false" import="true" targetId="d3ff-16f0-dad2-c03c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a5ed-27ac-6d94-cb9f" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="3c72-2846-347b-f185" name="Leader" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3464-ba60-581-5957" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12dd-4de2-f079-b631" type="max"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink id="2943-3e92-48e0-3479" name="Chaos - Chaos Knights Library" targetId="8106-aad2-918a-9ac" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="6b29-4df1-605-f4f3" name="Chaos - Daemons Library" targetId="b45c-af22-788a-dfd6" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="b871-5232-cb1e-3ba1" name="Library - Titans" targetId="7481-280e-b55e-7867" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

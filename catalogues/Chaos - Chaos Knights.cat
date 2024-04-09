@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="46d8-abc8-ef3a-9f85" name="Chaos - Chaos Knights" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="c62d-6a62-3548-b76e" name="Detachment Choice" hidden="false" collective="false" import="true" targetId="a435-b94a-eb7b-7c0c" type="selectionEntry"/>
+    <entryLink id="d6b9-36a1-6ef5-a028" name="Show/Hide Options" hidden="false" collective="false" import="true" targetId="e8ef-836a-a9d1-901d" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="ed4f-b26b-dd4a-3340" name="Show Khorne Daemons" hidden="false" collective="false" import="true" targetId="f5f9-1339-84bb-ae85" type="selectionEntry"/>
+        <entryLink id="153d-2ba9-ff5a-18f5" name="Show Nurgle Daemons" hidden="false" collective="false" import="true" targetId="f486-5e38-994c-15ec" type="selectionEntry"/>
+        <entryLink id="6494-c7c1-669b-69a0" name="Show Slaanesh Daemons" hidden="false" collective="false" import="true" targetId="d3ff-16f0-dad2-c03c" type="selectionEntry"/>
+        <entryLink id="6521-e858-36dd-8949" name="Show Tzeentch Daemons" hidden="false" collective="false" import="true" targetId="1248-8642-b42f-1dca" type="selectionEntry"/>
+        <entryLink id="b5a-4957-a734-d027" name="Show Titans" hidden="false" collective="false" import="true" targetId="f26b-79db-80e0-3a3b" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="bbb1-4f45-fafb-fc09" name="Chaos - Chaos Knights Library" targetId="8106-aad2-918a-9ac" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4386-7333-134-9a18" name="Chaos - Daemons Library" targetId="b45c-af22-788a-dfd6" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="9edd-ef10-2070-22d6" name="Library - Titans" targetId="7481-280e-b55e-7867" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
